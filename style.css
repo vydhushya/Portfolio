@@ -10,12 +10,10 @@ body{
     top: 0%;
     left: 0%;
   }
-
-  .navbar h4{
-    float: left;
-    color: #f2f2f2;
-    display: block;
+  .navbar-toggler-icon .cc{
+    color: rgb(255, 255, 255);
   }
+
   
   /* Navbar links */
   .navbar a {
@@ -25,26 +23,27 @@ body{
     text-align: center;
     padding: 14px;
     text-decoration: none;
-  }
+  } */
 
 
   .int{
     color: black;
-    display:inline-flex;
+    
+    
     position: relative;
   }
-  .img{
+  .int .img{
     width: 50%;
-    
+    position: relative;  
   }
 
   .int .img .myimg{
     border-style:ridge;
     border-color: black;
     object-fit: cover;
-    width: 80%;
+    width: 90%;
     margin-left: 10%;
-    height: 100%;
+    
     border-width:10px;
     
   }
@@ -65,3 +64,9 @@ body{
 
 }
 
+/* .intro .cat{
+  overflow: hidden;
+  object-fit: contain;
+  position: absolute;
+  
+} */

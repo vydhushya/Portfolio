@@ -6,25 +6,48 @@
     <link rel="stylesheet" href="style.css" type="text/css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <script type="text//javascript" src="script.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
     <title>Portfolio</title>
 </head>
 <body>
-    <div class="navbar">
-        <h4> &nbsp;Vydhushya</h4>
-        <a href="#extra">Extra Curricular</a>
-        <a href="#home">Projects</a>
-        <a href="#exp">Experience</a>
-        <a href="#">Education</a>
-        <a href="index.html">Home</a>
-    </div><br><br>
-    <div><br><p><br>&nbsp;<br>&nbsp;</p></div>
-      <div class="int">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="index.html">Portfolio</a>
+  <button class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navtog" aria-controls="navtog" aria-expanded="false">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navtog" >
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Education</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Experience</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Projects</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Exta Curricular</a>
+      </li>
+    </ul>
+  </div>
+  </nav>
+  <br><br>
+    <!-- <div><br><p>&nbsp;&nbsp;</p></div> -->
+      <div class="d-inline-flex int">
         <div class="img">
             <img src="assets/cat-working-with-a-laptop-doodle.gif" alt="doodle" class="myimg">  
         </div>
         <div class="intro">
             
-            <h1 style="font-size: 5vw;">Hello there!<br>This is Vydhushya Sonaleo Mandapati</h1>
+            <h1 style="font-size:5vw;">Hello there!<br>This is Vydhushya Sonaleo Mandapati</h1>
             <center>
             <div class="icons">
                     <a title="Github" class="icon-link" target="_blank" href="https://github.com/vydhushya">
@@ -47,11 +70,5 @@
           </center>
         </div>
       </div>
-      <div class="cat">
-        <p>Hello</p>
-    </div>
-      <!-- <section>
-        <p>hello</p>
-      </section> -->
       </body>
 </html>
