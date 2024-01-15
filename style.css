@@ -30,17 +30,19 @@ body{
 
   .int{
     color: black;
-    display: flex;
+    display:inline-flex;
+    position: relative;
   }
   .img{
-    width: 40%;
+    width: 50%;
+    
   }
 
-  .int .myimg{
+  .int .img .myimg{
     border-style:ridge;
     border-color: black;
     object-fit: cover;
-    width: 70%;
+    width: 80%;
     margin-left: 10%;
     height: 100%;
     border-width:10px;
@@ -51,13 +53,15 @@ body{
     font-weight:900;
     width: 50%;
     text-align: center;
+    
   }
 
 .icons{
   display: inline-flex;
-  
+
 }
 .icons a{
   padding: 10px;
 
 }
+
