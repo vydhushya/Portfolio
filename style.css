@@ -1,5 +1,6 @@
 body{
     background-color:beige;
+    padding-top: 90px;
 }
 /* Style the navbar */
 .navbar {
@@ -10,16 +11,13 @@ body{
     top: 0%;
     left: 0%;
   }
-  .navbar-toggler-icon .cc{
-    color: rgb(255, 255, 255);
-  }
 
   
   /* Navbar links */
   .navbar a {
     float: right;
     display: block;
-    color: #f2f2f2;
+    /* color: #f2f2f2; */
     text-align: center;
     padding: 14px;
     text-decoration: none;
@@ -27,15 +25,15 @@ body{
 
 
   .int{
-    color: black;
-    
-    
-    position: relative;
+    position: absolute;
   }
+
+
   .int .img{
     width: 50%;
     position: relative;  
   }
+
 
   .int .img .myimg{
     border-style:ridge;
@@ -43,30 +41,46 @@ body{
     object-fit: cover;
     width: 90%;
     margin-left: 10%;
-    
     border-width:10px;
-    
   }
+
+
   .int .intro{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-weight:900;
     width: 50%;
     text-align: center;
-    
   }
+
 
 .icons{
   display: inline-flex;
-
 }
+
+
 .icons a{
   padding: 10px;
-
 }
 
-/* .intro .cat{
-  overflow: hidden;
-  object-fit: contain;
-  position: absolute;
-  
-} */
+/* Education Page */
+
+.edu_head{
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.content{
+  font-family: "Sofia", sans-serif;
+  font-size: 25px;
+  text-shadow: 3px 3px 3px #ababab;
+}
+
+.edu_subhead{
+  font-family: "Sofia", sans-serif;
+  font-size: 30px;
+  text-shadow: 3px 3px 3px #ababab;
+  background-color: coral;
+  box-shadow: 10px 10px rgb(124, 159, 170);
+  width: 70%;
+}
