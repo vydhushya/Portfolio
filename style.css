@@ -64,7 +64,7 @@ body{
 
 /* Education Page */
 
-.edu_head{
+.thead{
   font-family: "Sofia", sans-serif;
   font-size: 30px;
   text-shadow: 3px 3px 3px #ababab;
@@ -76,7 +76,7 @@ body{
   text-shadow: 3px 3px 3px #ababab;
 }
 
-.edu_subhead{
+.subhead{
   font-family: "Sofia", sans-serif;
   font-size: 30px;
   text-shadow: 3px 3px 3px #ababab;
